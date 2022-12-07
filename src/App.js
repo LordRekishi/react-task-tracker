@@ -1,14 +1,11 @@
-function App() {
-  const name = "Patrik";
-  const x = true;
+import Header from "./components/Header";
 
+const App = () => {
   return (
     <div className="container">
-      <h1>Hello from React</h1>
-      <h2>Hello {name}</h2>
-      <h2>Test operator: {x ? "Yes" : "No"}</h2>
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
