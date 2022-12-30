@@ -23,6 +23,12 @@
       "day": "Monday 12th",
       "reminder": true,
       "id": 4
+    },
+    {
+      "text": "Test without reminder",
+      "day": "Tuesday 30th",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
